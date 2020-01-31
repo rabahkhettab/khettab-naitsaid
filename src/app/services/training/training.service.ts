@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Training } from 'src/app/model/training';
+import { Training } from '../../../app/model/training';
 import { Observable, of, from, Observer, ReplaySubject } from 'rxjs';
 import { share } from 'rxjs/operators';
 
